@@ -1,0 +1,40 @@
+
+P A U P *
+Portable version 4.0b10 for Unix
+Mon Oct  9 16:03:48 2023
+
+      -----------------------------NOTICE-----------------------------
+        This is a beta-test version.  Please report any crashes,
+        apparent calculation errors, or other anomalous results.
+        There are no restrictions on publication of results obtained
+        with this version, but you should check the WWW site
+        frequently for bug announcements and/or updated versions.  
+        See the README file on the distribution media for details.
+      ----------------------------------------------------------------
+
+paup> s
+
+
+Error(#117): Ambiguous command abbreviation: s (SaveDist, SaveAssum)
+
+paup> ls
+
+
+Error(#117): Ambiguous command abbreviation: ls (LSet, LScores)
+
+paup> set criterion=parsimony
+
+
+paup> exec 16s_all_MAFFT.nex
+
+
+Processing of file "~/PhylogeneticProject/results/16s_all_MAFFT.nex" begins...
+
+Warning: File does not begin with '#NEXUS'.
+
+Error(#117): Ambiguous command abbreviation: P (Permute, PairDiff)
+Error occurred at line 2 of file
+/home/sisu4822/PhylogeneticProject/results/16s_all_MAFFT.nex
+
+Processing of file "/home/sisu4822/PhylogeneticProject/results/16s_all_MAFFT.nex"
+terminated due to errors.
