@@ -1,10 +1,10 @@
-make_me_to_max_8_characters	Caenolestes_fuliginosus_16S_ribosomal_RNA_gene,_complete_sequence;_mitochondrial	AF102808.1
-make_me_to_max_8_characters	HGF48_mgr01_[organism=Cavia_aperea]_[GeneID=54115961]_[chromosome=MT]	NC_046949.1:1078-2642
-make_me_to_max_8_characters	MT017565.1_Cavia_porcellus_16s	
-make_me_to_max_8_characters	AY011153.1_Cavia_tschudii	
-make_me_to_max_8_characters	HGF98_mgr01_[organism=Rattus_andamanensis]_[GeneID=54105547]_[chromosome=MT]	NC_046686.1:1094-2662
-make_me_to_max_8_characters	CKO04_mgr01_[organism=Rattus_baluensis]_[GeneID=33900202]_[chromosome=MT]	NC_035621.1:1100-2666
-make_me_to_max_8_characters	HXU60_mgr01_[organism=Rattus_korinchi]_[GeneID=55755205]_[chromosome=MT]	NC_049042.1:1098-2665
-make_me_to_max_8_characters	AAW59_gr01_[organism=Sus_barbatus]_[GeneID=24251655]_[chromosome=MT]	NC_026992.1:2140-3711
-make_me_to_max_8_characters	Sus_cebifrons_mitochondrion,_complete_genome	NC_023541.1
-make_me_to_max_8_characters	Sus_scrofa_breed_Wenchang_mitochondrion,_complete_genome	OR397962.1
+CF	Caenolestes_fuliginosus	AF102808.1
+CA	Cavia_aperea	NC_046949.1:1078-2642
+CP	Cavia_porcellus	MT017565.1	
+CT	Cavia_tschudii	AY011153.1	
+RA	Rattus_andamanensis	NC_046686.1:1094-2662
+RB	Rattus_baluensis	NC_035621.1:1100-2666
+RC	Rattus_korinchi	NC_049042.1:1098-2665
+SB	Sus_barbatus	NC_026992.1:2140-3711
+SC	Sus_cebifrons	NC_023541.1
+SS	Sus_scrofa	OR397962.1
