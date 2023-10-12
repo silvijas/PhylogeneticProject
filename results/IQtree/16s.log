@@ -3,9 +3,9 @@ Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
 Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
 
 Host:    solander (SSE4.2, 5 GB RAM)
-Command: iqtree -s 16s_all_MAFFT.aln -o CF -m MFT -pre 16s -bb 1000
-Seed:    913746 (Using SPRNG - Scalable Parallel Random Number Generator)
-Time:    Thu Oct 12 10:57:21 2023
+Command: iqtree -s 16s_all_MAFFT.aln -o CF -m MFP -pre 16s -bb 1000
+Seed:    169827 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Oct 12 11:08:40 2023
 Kernel:  SSE2 - 1 threads (8 CPU cores detected)
 
 HINT: Use -nt option to specify number of threads because your CPU has 8 cores!
@@ -170,31 +170,99 @@ Bayesian Information Criterion:         TIM2+F+G4
 Best-fit model: TIM2+F+G4 chosen according to BIC
 
 All model information printed to 16s.model.gz
-CPU time for ModelFinder: 4.026 seconds (0h:0m:4s)
-Wall-clock time for ModelFinder: 4.246 seconds (0h:0m:4s)
-Generating 1000 samples for ultrafast bootstrap (seed: 913746)...
+CPU time for ModelFinder: 4.001 seconds (0h:0m:4s)
+Wall-clock time for ModelFinder: 4.095 seconds (0h:0m:4s)
+Generating 1000 samples for ultrafast bootstrap (seed: 169827)...
 
 NOTE: 1 MB RAM (0 GB) is required!
-Estimate model parameters (epsilon = 0.010)
+Estimate model parameters (epsilon = 0.100)
 1. Initial log-likelihood: -6327.274
 2. Current log-likelihood: -6078.018
 3. Current log-likelihood: -6064.140
 4. Current log-likelihood: -6061.574
-5. Current log-likelihood: -6060.708
-6. Current log-likelihood: -6060.432
-7. Current log-likelihood: -6060.369
-8. Current log-likelihood: -6060.351
-Optimal log-likelihood: -6060.340
-Rate parameters:  A-C: 15.61578  A-G: 19.33153  A-T: 15.61578  C-G: 1.00000  C-T: 72.97306  G-T: 1.00000
+5. Current log-likelihood: -6060.728
+6. Current log-likelihood: -6060.445
+Optimal log-likelihood: -6060.366
+Rate parameters:  A-C: 15.77391  A-G: 19.59853  A-T: 15.77391  C-G: 1.00000  C-T: 72.44454  G-T: 1.00000
+Base frequencies:  A: 0.386  C: 0.201  G: 0.166  T: 0.248
+Gamma shape alpha: 0.337
+Parameters optimization took 6 rounds (0.087 sec)
+Computing ML distances based on estimated model parameters... 0.001 sec
+Computing BIONJ tree...
+0.025 seconds
+Log-likelihood of BIONJ tree: -6060.364
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 99 parsimony trees... 0.049 second
+Computing log-likelihood of 86 initial trees ... 0.221 seconds
+Current best score: -6060.364
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -6060.348
+Iteration 10 / LogL: -6061.062 / Time: 0h:0m:0s
+Iteration 20 / LogL: -6061.163 / Time: 0h:0m:0s
+Finish initializing candidate tree set (1)
+Current best tree score: -6060.348 / CPU time: 0.713
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+UPDATE BEST LOG-LIKELIHOOD: -6060.348
+Iteration 30 / LogL: -6060.468 / Time: 0h:0m:1s (0h:0m:3s left)
+Iteration 40 / LogL: -6060.433 / Time: 0h:0m:1s (0h:0m:2s left)
+UPDATE BEST LOG-LIKELIHOOD: -6060.348
+Iteration 50 / LogL: -6061.091 / Time: 0h:0m:1s (0h:0m:1s left)
+Log-likelihood cutoff on original alignment: -6070.023
+Iteration 60 / LogL: -6061.449 / Time: 0h:0m:2s (0h:0m:1s left)
+UPDATE BEST LOG-LIKELIHOOD: -6060.348
+Iteration 70 / LogL: -6060.652 / Time: 0h:0m:2s (0h:0m:1s left)
+UPDATE BEST LOG-LIKELIHOOD: -6060.348
+Iteration 80 / LogL: -6060.441 / Time: 0h:0m:2s (0h:0m:0s left)
+Iteration 90 / LogL: -6060.647 / Time: 0h:0m:3s (0h:0m:0s left)
+Iteration 100 / LogL: -6060.348 / Time: 0h:0m:3s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -6070.023
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 1.000
+TREE SEARCH COMPLETED AFTER 102 ITERATIONS / Time: 0h:0m:3s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -6060.348
+Optimal log-likelihood: -6060.342
+Rate parameters:  A-C: 15.54501  A-G: 19.25238  A-T: 15.54501  C-G: 1.00000  C-T: 72.67378  G-T: 1.00000
 Base frequencies:  A: 0.386  C: 0.201  G: 0.166  T: 0.248
 Gamma shape alpha: 0.333
-Parameters optimization took 8 rounds (0.097 sec)
-BEST SCORE FOUND : -6060.340
+Parameters optimization took 1 rounds (0.005 sec)
+BEST SCORE FOUND : -6060.342
 Creating bootstrap support values...
-ERROR: splitgraph.h:235: int SplitGraph::getNTaxa(): Assertion `size() > 0' failed.
-ERROR: STACK TRACE FOR DEBUGGING:
-ERROR: 
-ERROR: *** IQ-TREE CRASHES WITH SIGNAL ABORTED
-ERROR: *** For bug report please send to developers:
-ERROR: ***    Log file: 16s.log
-ERROR: ***    Alignment files (if possible)
+Split supports printed to NEXUS file 16s.splits.nex
+Total tree length: 1.263
+
+Total number of iterations: 102
+CPU time used for tree search: 3.130 sec (0h:0m:3s)
+Wall-clock time used for tree search: 3.293 sec (0h:0m:3s)
+Total CPU time used: 3.287 sec (0h:0m:3s)
+Total wall-clock time used: 3.564 sec (0h:0m:3s)
+
+Computing bootstrap consensus tree...
+Reading input file 16s.splits.nex...
+9 taxa and 21 splits.
+Consensus tree written to 16s.contree
+Reading input trees file 16s.contree
+Log-likelihood of consensus tree: -6060.342
+
+Analysis results written to: 
+  IQ-TREE report:                16s.iqtree
+  Maximum-likelihood tree:       16s.treefile
+  Likelihood distances:          16s.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          16s.splits.nex
+  Consensus tree:                16s.contree
+  Screen log file:               16s.log
+
+Date and Time: Thu Oct 12 11:08:47 2023
