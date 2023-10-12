@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><beast beautitemplate='Standard' beautistatus='' namespace="beast.core:beast.evolution.alignment:beast.evolution.tree.coalescent:beast.core.util:beast.evolution.nuc:beast.evolution.operators:beast.evolution.sitemodel:beast.evolution.substitutionmodel:beast.base.evolution.alignment:beast.pkgmgmt:beast.base.core:beast.base.inference:beast.base.evolution.tree.coalescent:beast.pkgmgmt:beast.base.core:beast.base.inference.util:beast.evolution.nuc:beast.base.evolution.operator:beast.base.inference.operator:beast.base.evolution.sitemodel:beast.base.evolution.substitutionmodel:beast.base.evolution.likelihood" required="BEAST.base v2.7.5" version="2.7">
+        
+
+    <data
+id="16s_all_MAFFT"
+spec="Alignment"
+name="alignment">
+                            
+        <sequence id="seq_CA" spec="Sequence" taxon="CA" totalcount="4" value="??ACTAATTCTAGCCCT??AAAACAAATAATTACAACTGCACTGTAAAAGTAAAAC?AAAACATTTATATCT???AAAAGTATAGGAGATAGAACTTTTTTTT???GGCGCTATAGAGATAGTACCGCAAGGGAAAGATGAAAGATA?????AGATTAACAGTAAAAAAAAGCATAGATTACCCCTACTACCTTTTGTATAATGAGTTAACTAGAATAAATTTGGCAAAGAGAACTGAAGCCAACTACCCCGAAACCAAACGAGCTACTTTTAAACAGCTA?ACAGAGCAAACTCGTCTATGTGGCAAAATAGTGAGAAGATTTAGAAGTAGAGGTGAAAAGCCAATCGAGCTTGGTGATAGCTGGTTATCCAAATA?AGAATATTAGTTCAGCTTTAAGTTTTCCAAAAATATAACCAAATCGAATGAAAACTTAAAACTTAACCTAAAGAGGGACAGCTCTTTAAAATAAGGAAACAACCTCTAACAGTGGGTAAAAAGTAAA?????????AATTCCATAGTTGGCCTAAGAGCAGCCATCAATTAAGAAAGCGTTTAAGCTCGACAACCC?GTAAAATTTATAATACCAATAAAACTTAATGAACCCCTG?ATGAACAATTGGATTAATCTA?TATACATATAGAAGAAATAATGTTAACATTAGTAACAAGAAACAATTCTCCTT?GCACAAGCTTA?????????????????????????AATCATTCACGCATGATTGTTAACAACCCAATAAGACAAGACACCTCATTAATACTCTTATTAGACTAATTGTTAACCCGACACAGGAGTGCTACTCAGGAAAGACAAAACAAAGCAAAAGGAACTCGGCAAACACAAATCCCGCCTGTTTACCAAAAACATCACCTCTAGCATACTTAGTATTAGAGGCACTGCCTGCCCAGTG????ACATTCGTTCAACGGCCGCGGTATCCTGACCGTGCAAAGGTAGCATAATCACTTGTTCTTTAAATAAGGACTAGTATGAATGGCAAGACGAGGGTTTATCTGTCTCTTGCTTTACGTCAGTGAAATTGATCTTCCCGTGAAGAAGCGGGAATAACATAATAAGACGAGAAGACCCTATGGAGCTTTAATTTATTAGCTTACTTAACCAAATTTTAAACCCGTGAGGGCATAACACATATACGTAAACCTGAGCTAATAATTTCGGTTGGGGTGACCTCGGAGTACAATAAAACCTCCGAATGATACTAACCTAGATCCAACAAATCAAAGT?????TTAAATCACCAATTGACCCAAAATTCCCTTTGATCAACGGACCAAGTTACCCTAGGGATAACAGCGCAATCCTATTCTAGAGTTCATATCGACAA?TGGGGTTTACGACCTCGATGTTGGATCAGGACATCCTAATGGTGCAGCAGCTATTAAGGGTTCGTTTGTTCAACGATTAATAGTCCTACGTGATCTGAGTTCAGACCGGAGCAATCCAGGTCGGTTTCTATCTAT?TATAAACTTCTCCCAGTACGAAAGGACAAGAGAAGTGGGGCCAAT?AAACCACTCATGCCTCAATAACTAAAAAATGATATCATATTAATTTTATAGTTTTTCCAAACATC?ATACCTAAGAAAAAGGTT????"/>
+                            
+        <sequence id="seq_CF" spec="Sequence" taxon="CF" totalcount="4" value="??GCAAATATTTAGCCC??AACATGAATCCAAAAAAAAATATTAAACAAATAAAACCAAAACATTTAATCAT???TTAAGTATAGGTGATAGAAAATTTTATA?CGGGCGCTATAACGTAAGTACCGCAAGGGAAACATGAAAGAATCATCAACTTTTAAAGCAGAAAAAAGCAAAGATTAAATCTTCTACCTTTTGCATAATGACTTAGCCAGAATAAATCAGACAAAAAGAATT?ATGCCTGAAACCCCGAAATTAAGTGAGCTACTGCTAAACAGTCA?ACAGGACCAACTCGTCTATGTAGCAAAATAGTGAGATGATTTACCAGTAGAGGTGAAAAGCCTAACGAACTTAATGATAGCTGGTTATCCAAAAATCGAATTTCAGTTCAACTTTAAATTTAATAAAAATAATACTAAATAACACTTAAATTTAAAAGCTATTCAAAAGGGGGACAACTCTTTTGAT?ATGTAAACAAACTTCATTAGAGGGTAATGATATTAA????????CTTTCCATTGTAGGCTTAAAAGCAGCCACCAATTAAGAAAGCGTTAAAGCTCAA???ACTAATATTACATTTAATTCCACTCATA?TAACAAAACCCCTAAAAAAAT?ATTGGATGATTCTA?TTCAATTTTAGAAGACATAATGCTAAGATTAGTAACAAGAATTAATTCTCCAT?GCACAAGCTTAAGTTAGCAACGGAACACCCACTAATAATTAACAAAACA?????ATTTAAATAATCATAAACTAGCTCATCCTAACAA??????????????CTATTGTTAACCCAACACAGGTGTGCACACAAGGAAAGATTAAAAAGAATAAAAGGAACTCGGCAAACAAAAACCCCGCCTGTTTACCAAAAACATCACCTCTAGCATTATAAGTATTAGAGGCACTGCCTGCCCAGTGAGCTATTTAACTTCAACGGCCGCGGTATCCTGACCGTGCAAAGGTAGCATAATCACTTGTCTTTTAAATAGAGACTAGTATGAATGGCTTAACGAGGGTTTAACTGTCTCTTATTCTCAATCAGTGAAATTGACCTCCCCGTGCAGAGGCGGGATATACAT?ATAAGACGAGAAGACCCTGTGGAGCTTAAGATCCATGTCTT???AATTTATTACAAAAAATCCCCCAGGGGCTATTAATGCATAGCTACTAAGACATAGACCTTTGGTTGGGGTGACCTCGGAGCATAAAACAACCTCCGAATGATTATAACCAAGA?TTAACCAATCTAAGT?GCATAAAAGCCAGTAATTGACCC?AAAT????ATTGATCAACGGAACAAGTTACCCCAGGGATAACAGCGCAATCCTACTTAAGAGCCCATATCGACAT?TAGGGTTTACGACCTCGATGTTGGATCAGGACATCCCAATGGTGCAACCGCTATTAAAGGTTCGTTTGTTCAACGATTAA?AGTCCTACGTGATCTGAGTTCAGACCGGAGAAATCCAGGTCGGTTTCTATCTATATAACAATTTCTCCCAGTACGAAAGGACAAGAGAAATAAGGCCTACATTAACTCATGCGCCTTTAACATAAGTTATGAAACACATCTAAAT??AACAAAACTTAACTAGTTTCTTCTCTAGAAAAGAGCCATAAA"/>
+                            
+        <sequence id="seq_CP" spec="Sequence" taxon="CP" totalcount="4" value="?????AATTCTAGCCCTA?AAAACATATAATCACAACTACACTGTAAAAGTAAAAC?AAAACATTTATATTT???AAAAGTATAGGAGATAGAACTTTCTTTT???GGCGCTATAGAGGTAGTACCGCAAGGGAAAGATGAAAGATA?????AAATTAACAGTAAAAAAAAGCATAGATCACCCCTATTACCTTTTGTATAATGAGTTAACTAGAATAAATTTGGCAAAGAGGACTGAAGCCAACCACCCCGAAACCAAACGAGCTACTTTTAAACAGCTA?ACAGAGCAAACTCGTCTATGTAGCAAAATAGTGAGAAGATTTAGAAGTAGAGGTGAAAAGCCAATCGAGCTTGGTGATAGCTGGTTATCCAAATA?AGAATATCAGTTCAGCTTTAAGTTTTCCAAAAATATAACCAAATCAAATGAAAACTTAAAACTTAATCTAAAGAGGGACAGCTCTTTAAAATAAGGAAACAACCTCTAACAGTGGGTAAAAAATAAA?????????AGCTCCATAGTTGGCCTAAGAGCAGCCATCAATTAAGAAAGCGTTCAAGCTCGACAACCC?ATAAAATTTATAATACCAATAAAACTTAATGAACCCCTG?ATAAACAATTGGATTAATCTA?TATGTATATAGAAGAAATAATGTTAACATTAGTAACAAGAAATAATTCTCCTC?GCACAAGCTTA?????????????????????????AATCATTCACACATGATTGTTAACAACTCAATAAGACAAGACACCTCATTAATACTCTTATTAGACTAATTGTTAACCCGACACAGGAGTGCTACTCAGGAAAGACAAAACAAAGCAAAAGGAACTCGGCAAACACAAATCCCGCCTGTTTACCAAAAACATCACCTCTAGCATACTTAGTATTAGAGGCACTGCCTGCCCAGTG????ACATTCGTTCAACGGCCGCGGTATCCTGACCGTGCAAAGGTAGCATAATCACTTGTTCTTTAAATAAGGACTAGTATGAATGGCAAGACGAGGGTTTATCTGTCTCTTGCTTTACGTCAGTGAAATTGATCTTCCCGTGAAGAAGCGGGAATAATATAATAAGACGAGAAGACCCTATGGAGCTTTAATTTATTAGCTTACTTAACC?AATTTTTAACCCATAAGGGCATAACACATACACTTAAACCTAAGCTAGTAATTTCGGTTGGGGTGACCTCGGAGTACAATAAAACCTCCGAATGATATTAGCCTAGATCCAACAAATCGAAGT?????TTAAATCACCAATTGACCC?AAATTCCTTTTGATCAACGGACCAAGTTACCCTAGGGATAACAGCGCAATCCTATTCTAGAGTTCATATCGACAA?TGGGGTTTACGACCTCGATGTTGGATCAGGACATCCTAATGGTGCAGCAGCTATTAAGGGTTCGTTTGTTCAACGATTAATAGTCCTACGTGATCTGAGTTCAGACCGGAGTAATCCAGGTCGGTTTCTATCTAT?TATAAACTTCTCCTAGTACGAAAGGACAAGAGAAGTGAGGCCAAT?AAACCACTCATGCCTCGATAGCTAAAAAATGATGTCATATTAATTTTATAGTTTTCCAAATTATCTTTCCCTAAGAAAAAGGTT????"/>
+                            
+        <sequence id="seq_RA" spec="Sequence" taxon="RA" totalcount="4" value="??GCCAATCCTAGCCCT??AAAATCAACTGATATAACTAAATTATTACA?TAAACT?AAAACATTCAACTAA???AAAAGTATTGGAGAAAGAAATTTACTTACCAGGAGCTATAGAGAAAGTACCGTAAGGGAATGATGAAAGACT??????AATTTAAAGCAAAAACAAGCAAAGATTAAACCTTGTACCTTTTGCATAATGAATTAACTAGAAAAACCCTAGCACAAAGAACTTAAGCTAGAAACCCCGAAACCAAACGAGCTACCTAAAAACAATTT?CATGAATCAACCCGTCTATGTAGCAAAATAGTGGGAAGATTTTTAGGTAGAGGTGAAAAGCCTACCGAGCTTGGTGATAGCTGGTTGCCCAAAAA?AGAATTTCAGTTCAATTTTAAGTCTACCATAAGAACAACAAATCAAAATGTAAACTTAAAATATAGCCAAAAGAGGGACAGCTCTTTAGGA?AAGGAAAAAACCTTAAATAGTGAATAAATAACTAAT?ACTATC?TCAACCATTGTAGGCTTAAAAGCAGCCACCAATAAAGAAAGCGTTCAAGCTCAACATACTTACATATATATTAATCCCATAAATC?TTAATAAATTCCTATACTATCAATTGGGCTAATCTATTAAAGCCATAGATGAAATACTGTTAATATGAGTAACAAGAATAAATTCTCCTTAGCACAAGTGTATGACACC??CCGGATAACCATTGTCAATTATCGAACTATAGGTATTAACCCCACAATAAAACCACCTAACCC??TAA????????????????ATCGTTAGCCCAACACAGGTGTGCT?CCAAGGAAAGATTAAAAAAAGTAAAAGGAACTCGGCAAACACGAACCCCGCCTGTTTACCAAAAACATCACCTCTAGCATAACAAGTATTAGAGGCACTGCCTGCCCAGTG????ACTAAAGTTTAACGGCCGCGGTATCCTGACCGTGCAAAGGTAGCATAATCACTTGTTCCTTAATTAGGGACTAGAATGAATGGCTAAACGAGGGCTCAACTGTCTCTTACCTTCAATCAGTGAAATTGACCTTCCAGTGAAGAGGCTGGAATTATACAATAAGACGAGAAGACCCTATGGAGCTTTAATTTACTAGTTT???AATTTATATAGCAACAACCTAATGGACCAAAACAA??AATAAATATAAACTAAAAAATTTCGGTTGGGGTGACCTCGGAGAATAAAAAATCCTCCGAATGATTTTAACCTAGA?CCCACAAGTCAAAGTAATGTAAATAT??CTTATTGACCC?AATT????ATTGATCAACGGACCAAGTTACCCTAGGGATAACAGCGCAATCCTATTTAAGAGTTCATATCGACAATTAGGGTTTACGACCTCGATGTTGGATCAGGACATCCCAATGGTGCAGAAGCTATTAATGGTTCGTTTGTTCAACGATTAA?AGTCCTACGTGATCTGAGTTCAGACCGGAGCAATCCAGGTCGGTTTCTATCTAT?TTACAATTTCTCCCAGTACGAAAGGACAAGAGAAATGGAGCCACC?TTACCACAAGCGCTCCCAACCAATTTATG?AAAAAAATCTCAATAAAATATGTATGTACAATAAACAAACCTAGATCAGGTT??????"/>
+                            
+        <sequence id="seq_RB" spec="Sequence" taxon="RB" totalcount="4" value="??ACCAATCCTAGCCCT??AAAATCAGCTAATATAACTAAATTATTGAA?TAAACT?AAAACATTCAACTCA???AAAAGTATTGGAGAAAGAAATTTACTTA?TAGGAGCTATAGAGAAAGTACCGTAAGGGAATGATGAAAGACT??????AATTTAAAGTAATAACCAGCAAAGATTAAACCTTGTACCTTTTGCATAATGAATTAACTAGAAAAACCTTAGCACAAAGAATTTAAGCTAAAAACCCCGAAACCAAACGAGCTACCTAAAAACAATTT?TATGAATCAACCCGTCTATGTAGCAAAATAGTGGGAAGATTTTTAGGTAGAGGTGAAAAGCCTACCGAGCTTGGTGATAGCTGGTTGCCCAAAAA?AGAATTTCAGTTCAACTTTAAGTTTACCATAAGAATAACAAATCAAAATGTAAACTTAAAATATAGCCAAAAGAGGGACAGCTCTTTAGGA?AAGGAAAAAACCTTAAATAGTGAATAAATAACTAACAACTAAC?TTAACCATTGTAGGCTTAAAAGCAGCCACCAATAAAGAAAGCGTTCAAGCTCAACATACT??TACACGCACTAATCCCATAAACC?TTAATAAATTCCTATATTATCAATTGGGCTAATCTA?TAAGACCATAGATGAAATACTGTTAATATGAGTAACAAGAATCAATTCTCCTTAGCACAAGTGTATGACACC??CCGGATAACCATTGTCAATTACCGAATTATAGGTACTAACCCCACAATAAAACCACCTAATCC??TAA????????????????CTCGTTAGCCCAACACAGGCGTGCT?CCAAGGAAAGATTAAAAAAAGTAAAAGGAACTCGGCAAACACGAGCCCCGCCTGTTTACCAAAAACATCACCTCTAGCATAACAAGTATTAGAGGCATTGCCTGCCCAGTG????ACTAAAGTTAAACGGCCGCGGTATCCTGACCGTGCAAAGGTAGCATAATCACTTGTTCCTTAATTAGGGACTAGAATGAATGGCTAAACGAGGGTTCAACTGTCTCTTACTTTCAATCAGTGAAATTGACCTTCCAGTGAAGAGGCTGGAATGCTACAATAAGACGAGAAGACCCTATGGAGCTTTAATTTACTAGTTT???AATTTATACACCAATAACCTAATGGACCAAAACAA??AATAAATATAAACTAAAAAATTTCGGTTGGGGTGACCTCGGAGAATAAAAAATCCTCCGAATGATTTTAACCTAGA?CTCACAAGTCAAAGTAGCCTTAACAT??CTCATTGACCC?AATT????ATTGATCAACGGACCAAGTTACCCTAGGGATAACAGCGCAATCCTATTTAAGAGTTCATATCGACAGTTAGGGTTTACGACCTCGATGTTGGATCAGGACATCCCAATGGTGCAGAAGCTATTAATGGTTCGTTTGTTCAACGATTAA?AGTCCTACGTGATCTGAGTTCAGACCGGAGTAATCCAGGTCGGTTTCTATCTAT?TTACAATTTCTCCCAGTACGAAAGGACAAGAGAAATGGAGCCACC?TTACCACAAGTGCTCCCAACCAATTTATGAAAAAAAATCTCAATAAAATATGTATGTACAACAAATAAACCTAGACCAGGTT??????"/>
+                            
+        <sequence id="seq_RK" spec="Sequence" taxon="RK" totalcount="4" value="??ACCAATCCTAGCCCTA?AAAATCAACTAATATAACTAAATTATTACA?TATACT?AAAGCATTTAACCCA???AAAAGTATTGGAGAAAGAAATTTACTTA?CAGGAGCTATAGAGAGAGTACCGTAAGGGAATGATGAAAGAAC??????AATTTAAAGTAACAACAAGCAAAGATTAAACCTTGTACCTTTTGCATAATGAATTAACTAGAAAAACCTTAGCACAAAGAATTAAAGCTAAAAACCCCGAAACCAAACGAGCTACCTAAAAACAATTT?TATGAATCAACCCGTCTATGTAGCAAAATAGTGGGAAGATTTTTAGGTAGAGGTGAAAAGCCTACCGAGCTTGGTGATAGCTGGTTGCTCAAAAA?AGAATCTCAGTTCAACTTTAAGTCTACCATAAGAACAATAAATCAAAATGTAAACTTAAAATATAGCCAAAAGAGGGACAGCTCTTTAGGA?AAGGAAAAAACCTTAAATAGTGAATAAACAACTAACAACTAACTTTAATCATTGTAGGCTTAGAAGCAGCCACCAATAAAGAAAGCGTTCAAGCTCAACATACT??CATACACACTAATCCCATAAACC?TTAATAAATTCCTATATTATCAATTGGGCTAATCTA?TAAAACCATAGATGAAATACTGTTAATATGAGTAACAAGAATTAATTCTCCTTAGCACAAGTGTATGACACC??CCGGATAACCATTGTCAATTATCGAATTATAGGTATTAACCCCACAATAAACCCACCTAATTC??TAA????????????????CTCGTTAGCCCAACACAGGAGTGCT?ACAAGGAAAGATTAAAAAAAGTAAAAGGAACTCGGCAAACACGAGCCCCGCCTGTTTACCAAAAACATCACCTCTAGCATAACAAGTATTAGAGGCATTGCCTGCCCAGTG????ACTAAAGTTAAACGGCCGCGGTATCCTGACCGTGCAAAGGTAGCATAATCACTTGTTCCTTAATTAGGGACTAGAATGAATGGCTAAACGAGGGTTCAACTGTCTCTTACTTTCAATCAGTGAAATTGACCTTCCAGTGAAGAGGCTGGAATACTATAATAAGACGAGAAGACCCTATGGAGCTTTAATTTACTAGTTT???AATTTACATAACAACAACCTAATGGACTAAATCAA??AATAAATATAAACTAAAAAATTTCGGTTGGGGTGACCTCGGAGAATAAAAAATCCTCCGAATGATTTTAACCTAGA?CTCACAAGTCAAAGTAATACTAGCAT??CTTATTGACCC?AATT????ATTGATCAACGGACCAAGTTACCCTAGGGATAACAGCGCAATCCTATTTAAGAGTTCATATCGACAATTAGGGTTTACGACCTCGATGTTGGATCAGGACATCCCAATGGTGCAGAAGCTATTAATGGTTCGTTTGTTCAACGATTAA?AGTCCTACGTGATCTGAGTTCAGACCGGAGCAATCCAGGTCGGTTTCTATCTAT?TTACAATTTCTCCCAGTACGAAAGGACAAGAGAAATGGAGCCACC?TTACCATAAGTGCTCCCAACCAATTTATG?AAAAAAATCTCAATAAAATATGTATGTACAATAAATAAACCTAGACCAGGTT??????"/>
+                            
+        <sequence id="seq_SB" spec="Sequence" taxon="SB" totalcount="4" value="GAACCAAAGCTAGCTCAACATACTAAACAAATACAAAAATACACCAAAA?TAAAAT?AAAACATTCACCTAACATTAAAGTATAGGAGATAGAAATTTTTATC?CTGACGCTATAGAGATAGTACCGTAAGGGAAAGATGAAAGAAT?????AAAATAAAAGTAAAAAAAAGCAAAGATTACCCCTTCTACCTTTTGCATAATGGTTTAACCAGAAAAAATCTAACAAAGAGAACTTTAGCTAGATACCCCGAAACCAGACGAGCTACCTATGAGCAGTTTAAAAGAACCAACTCATCTATGTGGCAAAATAGTGAGAAGACTTGTAGGTAGGGGTGAAAAGCCTAACGAGCCTGGTGATAGCTGGTTGTCCGAGAA?AGAATTTTAGTTCAACCTTAAAAATACCCCAAAAACCCTAAATTCCAATGTATTTTTAAGAGATAATCTAAAAAGGTACAGCTTTTTAGAA?ACGGATACAACCTTGACTAGAGAGTAAAATCTTAAT????????ACTACCATAGTAGGCCTAAAAGCAGCCATCAATTGAGAAAGCGTTAAAGCTCAACAAATC??CACCAACA?TAATCCCAAAAACTAATAACAAACTCCTAGCCCAAT?ACCGGACTAATCTA?TTGAAACATAGAAGCAATAATGTTAATATGAGTAACAAGAAACCTTTCTCCTC?GCACACGCTTA??????????????????CATCAGTAACTAATAATATACTGATAATTAACAATCAATAAACCAAAACAACAC??TAAAACGTTTATTAATCATATTGTTAACCCAACACAGGAGTGCA?CCAAGGAAAGATTAAAAGAAGTAAAAGGAACTCGGCAAACACAAACCCCGCCTGTTTACCAAAAACATCACCTCTAGCATTACTAGTATTAGAGGCAATGCCTGCCCAGTG????ACACCAGTTTAACGGCCGCGGTATTCTGACCGTGCAAAGGTAGCATAATCACTTGTTCTCCAAATAAGGACTTGTATGAATGGCCACACGAGGGTTTTACTGTCTCTTACTTCCAATCAGTGAAATTGACCTTCCCGTGAAGAGGCGGGAATATAAAAATAAGACGAGAAGACCCTATGGAGCTTTAATTAACTATTCCA?AAAGTTAAACAATTCAACCACAAAGGGATAAAACAT??AACTTAACATGGACTAGCAATTTCGGTTGGGGTGACCTCGGAGTACAAAAAACCCTCCGAGTGATTTTAATCTAGA?CAAACCAGTCAAAATAACCATAACATCACTTATTGATCCAAAAT????TTTGATCAACGGAACAAGTTACCCTAGGGATAACAGCGCAATCCTATTCTAGAGTTCCTATCGACAA?TAGGGTTTACGACCTCGATGTTGGATCAGGACATCCAAATGGTGCAACCGCTATTAAAGGTTCGTTTGTTCAACGATTAA?AGTCCTACGTGATCTGAGTTCAGACCGGAGCAATCCAGGTCGGTTTCTATCTAT?TATAAATTTCTCCCAGTACGAAAGGACAAGAGAAATGGGACCTAC?CTCACAAACGCGTCCCAGAGATAATTAAT?GATATAATCTTAACTTAATTAACTCATAATAAATCCAGCCCTAGAACAGGGCAC????"/>
+                            
+        <sequence id="seq_SC" spec="Sequence" taxon="SC" totalcount="4" value="??ACCAAAGCTAGCTCAACATACTAAACAAATACAAAAATACACCAAAA?TAAAAC?AAAACATTCACCTAGCATTAAAGTATAGGAGATAGAAATTTTTATC?CTGACGCTATAGAGATAGTACCGTAAGGGAAAGATGAAAGAAT?????AAAATAAAAGTAAAAAAAAGCAAAGATTACCCCTTCTACCTTTTGCATAATGATTTAACCAGAAAAAATCTAACAAAGAGAACTTTAGCTAGATACCCCGAAACCAGACGAGCTACCTATGAGCAGTTTAAAAGAACCAACTCATCTATGTGGCAAAATAGTGAGAAGACTTGTAGGTAGAGGTGAAAAGCCTAACGAGCCTGGTGATAGCTGGTTGTCCGAGAA?GGAATTTTAGTTCAACCTTAAAAATACCCCAAAAACCCTAAATTCCAATGTATTTTTAAGAGATAATCTAAAAAGGTACAGCTTTTTAGAA?ACGGATACAACCTTAACTAGAGAGTAAAATCTTAAT????????ACCACCATAGTAGGCCTAAAAGCAGCCATCAATTGAGAAAGCGTTAAAGCTCAACAAACC??CACCAACATTAATCCCAAAAGCTAACAATAAACTCCTAGCCCAGT?ACCGGACTAATCTA?TTAAAACATAGAAGCAATAATGTTAATATGAGTAACAAGAAGCCTTTCTCCTC?GCACACGCTTA??????????????????CATCAGTAACTAATAATATACTGATAATTAACAATCAATAAACCAAAACAACAC??TAAAACGTTTATCAATTATATTGTTAACCCAACACAGGAGTGCA?CCAAGGAAAGATTAAAAGAAGTAAAAGGAACTCGGCAAACACAAACCCCGCCTGTTTACCAAAAACATCACCTCTAGCATTACTAGTATTAGAGGCAATGCCTGCCCAGTG????ACACCAGTTTAACGGCCGCGGTATTCTGACCGTGCAAAGGTAGCATAATCACTTGTTCTCCAAATAAGGACTTGTATGAATGGCCACACGAGGGTTTTACTGTCTCTTACTTCCAATCAGTGAAATTGACCTTCCCGTGAAGAGGCGGGAATAAAAAAATAAGACGAGAAGACCCTATGGAGCTTTAATTAACTATTCCA?AAAGTTAAACAATTCAACCACAAAGGGATAAAACAT??AACTTAACCTGGATTAGCAATTTCGGTTGGGGTGACCTCGGAGTACAAAAAACCCTCCGAGTGATTTTAACCTAGA?CAAACCAGTCAAAGTAACCATAACATCACTTATTGATCCAAAAT????TTTGATCAACGGAACAAGTTACCCTAGGGATAACAGCGCAATCCTATTCTAGAGTTCCTATCGACAA?TAGGGTTTACGACCTCGATGTTGGATCAGGACACCCAAATGGTGCAACCGCTATTAAAGGTTCGTTTGTTCAACGATTAA?AGTCCTACGTGATCTGAGTTCAGACCGGAGCAATCCAGGTCGGTTTCTATCTAT?TATAAATTTCTCCCAGTACGAAAGGACAAGAGAAATGGGACCAAC?CCCACAAACGCGTCTCAGAGATAATTAAT?GACATAATCTTAACTTAATTAACTCATAATAAATCCAGCCCTAGAACAGGGCA?????"/>
+                            
+        <sequence id="seq_SS" spec="Sequence" taxon="SS" totalcount="4" value="??ACCAAAGCTAGCTCAACATATTAAACAAATACAAAAATACACCAAAA?TAAAAT?AAAACATTCACCTAACATTAAAGTATAGGAGATAGAAATTTTTATC?CTGACGCTATAGAGATAGTACCGTAAGGGAAAGATGAAAGAAT?????AAAATAAAAGTAAAAAAAAGCAAAGATTACCCCTTCTACCTTTTGCATAATGGTTTAACCAGAAAAAATCTAACAAAGAGAACTTTAGCTAGATACCCCGAAACCAGACGAGCTACCTATGAGCAGTTTAAAAGAACCAACTCATCTATGTGGCAAAATAGTGAGAAGACTTGTAGGTAGAGGTGAAAAGCCTAACGAGCCTGGTGATAGCTGGTTGTCCGAGAA?AGAATTTTAGTTCAACCTTAAAAATACCCCAAAAACCCTAAATTCCAATGTATTTTTAAGAGATAGTCTAAAAAGGTACAGCTTTTTAGAA?ACGGATACAACCTTGACTAGAGAGTAAAATCTTAAT????????ACTACCATAGTAGGCCTAAAAGCAGCCATCAATTGAGAAAGCGTTAAAGCTCAACAAATT??CACCAACA?TAATCCCAAAAACTAATAACAAACTCCTAGCCCAAT?ACCGGACTAATCTA?TTGAAACATAGAAGCAATAATGTTAATATGAGTAACAAGAAGCCTTTCTCCTC?GCACACGCTTA??????????????????CATCAGTAACTAATAATATACTGATAATTAACAATCAATAAACCAAAACAACAC??TAAAGCGTTTATTAATTATATTGTTAACCCAACACAGGAGTGCA?CCAAGGAAAGATTAAAAGAAGTAAAAGGAACTCGGCAAACACAAACCCCGCCTGTTTACCAAAAACATCACCTCTAGCATTACTAGTATTAGAGGCAATGCCTGCCCAGTG????ACACCAGTTTAACGGCCGCGGTATTCTGACCGTGCAAAGGTAGCATAATCACTTGTTCTCCAAATAAGGACTTGTATGAATGGCCACACGAGGGTTTTACTGTCTCTTACTTCCAATCAGTGAAATTGACCTTCCCGTGAAGAGGCGGGAATAAAAAAATAAGACGAGAAGACCCTATGGAGCTTTAATTAACTACTCCA?AAAGTTAAACAATTCAACCACAAAGGGATAAAACAT??AACTTAACATGGACTAGCAATTTCGGTTGGGGTGACCTCGGAGTACAAAAAACCCTCCGAGTGATTTTAATCTAGA?CAAACCAGTCAAAATAACCATAACATCACTTATTGATCCAAAAT????TTTGATCAACGGAACAAGTTACCCTAGGGATAACAGCGCAATCCTATTCTAGAGTTCCTATCGACAA?TAGGGTTTACGACCTCGATGTTGGATCAGGACACCCAAATGGTGCAACCGCTATTAAAGGTTCGTTTGTTCAACGATTAA?AGTCCTACGTGATCTGAGTTCAGACCGGAGCAATCCAGGTCGGTTTCTATCTAT?TATAAATTTCTCCCAGTACGAAAGGACAAGAGAAATGGGACCAAC?CTCACAAACGCGTCTCAGAGATAATTAAT?GATATAATCTTAACCTAATTAACTCATAATAAATCCAGCCCTAGAACAGGGCAC????"/>
+                        
+    </data>
+        
+
+
+
+
+
+    
+
+
+
+
+
+    
+
+
+
+    <map name="Uniform" >beast.base.inference.distribution.Uniform</map>
+
+    
+
+    <map name="Exponential" >beast.base.inference.distribution.Exponential</map>
+
+    
+
+    <map name="LogNormal" >beast.base.inference.distribution.LogNormalDistributionModel</map>
+
+    
+
+    <map name="Normal" >beast.base.inference.distribution.Normal</map>
+
+    
+
+    <map name="Beta" >beast.base.inference.distribution.Beta</map>
+
+    
+
+    <map name="Gamma" >beast.base.inference.distribution.Gamma</map>
+
+    
+
+    <map name="LaplaceDistribution" >beast.base.inference.distribution.LaplaceDistribution</map>
+
+    
+
+    <map name="prior" >beast.base.inference.distribution.Prior</map>
+
+    
+
+    <map name="InverseGamma" >beast.base.inference.distribution.InverseGamma</map>
+
+    
+
+    <map name="OneOnX" >beast.base.inference.distribution.OneOnX</map>
+
+    
+
+    <run id="mcmc" spec="MCMC" chainLength="1000000">
+            
+        <state id="state" spec="State" storeEvery="5000">
+                    
+            <tree id="Tree.t:16s_all_MAFFT" spec="beast.base.evolution.tree.Tree" name="stateNode">
+                            
+                <taxonset id="TaxonSet.16s_all_MAFFT" spec="TaxonSet">
+                                    
+                    <alignment idref="16s_all_MAFFT"/>
+                                
+                </taxonset>
+                        
+            </tree>
+                    
+            <parameter id="birthRate.t:16s_all_MAFFT" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
+                    
+            <parameter id="rateAC.s:16s_all_MAFFT" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
+                    
+            <parameter id="rateAT.s:16s_all_MAFFT" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
+                    
+            <parameter id="rateCG.s:16s_all_MAFFT" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
+                    
+            <parameter id="rateGT.s:16s_all_MAFFT" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
+                
+        </state>
+            
+        <init id="RandomTree.t:16s_all_MAFFT" spec="RandomTree" estimate="false" initial="@Tree.t:16s_all_MAFFT" taxa="@16s_all_MAFFT">
+                    
+            <populationModel id="ConstantPopulation0.t:16s_all_MAFFT" spec="ConstantPopulation">
+                            
+                <parameter id="randomPopSize.t:16s_all_MAFFT" spec="parameter.RealParameter" name="popSize">1.0</parameter>
+                        
+            </populationModel>
+                
+        </init>
+            
+        <distribution id="posterior" spec="CompoundDistribution">
+                    
+            <distribution id="prior" spec="CompoundDistribution">
+                            
+                <distribution id="YuleModel.t:16s_all_MAFFT" spec="beast.base.evolution.speciation.YuleModel" birthDiffRate="@birthRate.t:16s_all_MAFFT" tree="@Tree.t:16s_all_MAFFT"/>
+                            
+                <prior id="YuleBirthRatePrior.t:16s_all_MAFFT" name="distribution" x="@birthRate.t:16s_all_MAFFT">
+                                    
+                    <Gamma id="Gamma.6" name="distr">
+                                            
+                        <parameter id="RealParameter.14" spec="parameter.RealParameter" estimate="false" name="alpha">2.0</parameter>
+                                            
+                        <parameter id="RealParameter.15" spec="parameter.RealParameter" estimate="false" name="beta">2.0</parameter>
+                                        
+                    </Gamma>
+                                
+                </prior>
+                            
+                <prior id="RateACPrior.s:16s_all_MAFFT" name="distribution" x="@rateAC.s:16s_all_MAFFT">
+                                    
+                    <Gamma id="Gamma.0" name="distr">
+                                            
+                        <parameter id="RealParameter.1" spec="parameter.RealParameter" estimate="false" name="alpha">0.05</parameter>
+                                            
+                        <parameter id="RealParameter.2" spec="parameter.RealParameter" estimate="false" name="beta">10.0</parameter>
+                                        
+                    </Gamma>
+                                
+                </prior>
+                            
+                <prior id="RateATPrior.s:16s_all_MAFFT" name="distribution" x="@rateAT.s:16s_all_MAFFT">
+                                    
+                    <Gamma id="Gamma.2" name="distr">
+                                            
+                        <parameter id="RealParameter.5" spec="parameter.RealParameter" estimate="false" name="alpha">0.05</parameter>
+                                            
+                        <parameter id="RealParameter.6" spec="parameter.RealParameter" estimate="false" name="beta">10.0</parameter>
+                                        
+                    </Gamma>
+                                
+                </prior>
+                            
+                <prior id="RateCGPrior.s:16s_all_MAFFT" name="distribution" x="@rateCG.s:16s_all_MAFFT">
+                                    
+                    <Gamma id="Gamma.3" name="distr">
+                                            
+                        <parameter id="RealParameter.7" spec="parameter.RealParameter" estimate="false" name="alpha">0.05</parameter>
+                                            
+                        <parameter id="RealParameter.8" spec="parameter.RealParameter" estimate="false" name="beta">10.0</parameter>
+                                        
+                    </Gamma>
+                                
+                </prior>
+                            
+                <prior id="RateGTPrior.s:16s_all_MAFFT" name="distribution" x="@rateGT.s:16s_all_MAFFT">
+                                    
+                    <Gamma id="Gamma.5" name="distr">
+                                            
+                        <parameter id="RealParameter.11" spec="parameter.RealParameter" estimate="false" name="alpha">0.05</parameter>
+                                            
+                        <parameter id="RealParameter.12" spec="parameter.RealParameter" estimate="false" name="beta">10.0</parameter>
+                                        
+                    </Gamma>
+                                
+                </prior>
+                        
+            </distribution>
+                    
+            <distribution id="likelihood" spec="CompoundDistribution" useThreads="true">
+                            
+                <distribution id="treeLikelihood.16s_all_MAFFT" spec="ThreadedTreeLikelihood" data="@16s_all_MAFFT" tree="@Tree.t:16s_all_MAFFT">
+                                    
+                    <siteModel id="SiteModel.s:16s_all_MAFFT" spec="SiteModel">
+                                            
+                        <parameter id="mutationRate.s:16s_all_MAFFT" spec="parameter.RealParameter" estimate="false" lower="0.0" name="mutationRate">1.0</parameter>
+                                            
+                        <parameter id="gammaShape.s:16s_all_MAFFT" spec="parameter.RealParameter" estimate="false" lower="0.1" name="shape">1.0</parameter>
+                                            
+                        <parameter id="proportionInvariant.s:16s_all_MAFFT" spec="parameter.RealParameter" estimate="false" lower="0.0" name="proportionInvariant" upper="1.0">0.0</parameter>
+                                            
+                        <substModel id="gtr.s:16s_all_MAFFT" spec="GTR" rateAC="@rateAC.s:16s_all_MAFFT" rateAT="@rateAT.s:16s_all_MAFFT" rateCG="@rateCG.s:16s_all_MAFFT" rateGT="@rateGT.s:16s_all_MAFFT">
+                                                    
+                            <parameter id="rateAG.s:16s_all_MAFFT" spec="parameter.RealParameter" estimate="false" lower="0.0" name="rateAG">1.0</parameter>
+                                                    
+                            <parameter id="rateCT.s:16s_all_MAFFT" spec="parameter.RealParameter" estimate="false" lower="0.0" name="rateCT">1.0</parameter>
+                                                    
+                            <frequencies id="empiricalFreqs.s:16s_all_MAFFT" spec="Frequencies" data="@16s_all_MAFFT"/>
+                                                
+                        </substModel>
+                                        
+                    </siteModel>
+                                    
+                    <branchRateModel id="StrictClock.c:16s_all_MAFFT" spec="beast.base.evolution.branchratemodel.StrictClockModel">
+                                            
+                        <parameter id="clockRate.c:16s_all_MAFFT" spec="parameter.RealParameter" estimate="false" lower="0.0" name="clock.rate">1.0</parameter>
+                                        
+                    </branchRateModel>
+                                
+                </distribution>
+                        
+            </distribution>
+                
+        </distribution>
+            
+        <operator id="YuleBirthRateScaler.t:16s_all_MAFFT" spec="kernel.BactrianScaleOperator" parameter="@birthRate.t:16s_all_MAFFT" upper="10.0" weight="3.0"/>
+            
+        <operator id="YuleModelTreeRootScaler.t:16s_all_MAFFT" spec="kernel.BactrianScaleOperator" rootOnly="true" scaleFactor="0.5" tree="@Tree.t:16s_all_MAFFT" upper="10.0" weight="3.0"/>
+            
+        <operator id="YuleModelUniformOperator.t:16s_all_MAFFT" spec="kernel.BactrianNodeOperator" tree="@Tree.t:16s_all_MAFFT" weight="30.0"/>
+            
+        <operator id="YuleModelSubtreeSlide.t:16s_all_MAFFT" spec="kernel.BactrianSubtreeSlide" tree="@Tree.t:16s_all_MAFFT" weight="15.0"/>
+            
+        <operator id="YuleModelNarrow.t:16s_all_MAFFT" spec="Exchange" tree="@Tree.t:16s_all_MAFFT" weight="15.0"/>
+            
+        <operator id="YuleModelWide.t:16s_all_MAFFT" spec="Exchange" isNarrow="false" tree="@Tree.t:16s_all_MAFFT" weight="3.0"/>
+            
+        <operator id="YuleModelWilsonBalding.t:16s_all_MAFFT" spec="WilsonBalding" tree="@Tree.t:16s_all_MAFFT" weight="3.0"/>
+            
+        <operator id="YuleModelBICEPSEpochTop.t:16s_all_MAFFT" spec="EpochFlexOperator" scaleFactor="0.1" tree="@Tree.t:16s_all_MAFFT" weight="2.0"/>
+            
+        <operator id="YuleModelBICEPSEpochAll.t:16s_all_MAFFT" spec="EpochFlexOperator" fromOldestTipOnly="false" scaleFactor="0.1" tree="@Tree.t:16s_all_MAFFT" weight="2.0"/>
+            
+        <operator id="YuleModelBICEPSTreeFlex.t:16s_all_MAFFT" spec="TreeStretchOperator" scaleFactor="0.01" tree="@Tree.t:16s_all_MAFFT" weight="2.0"/>
+            
+        <operator id="RateACScaler.s:16s_all_MAFFT" spec="AdaptableOperatorSampler" weight="0.05">
+                    
+            <parameter idref="rateAC.s:16s_all_MAFFT"/>
+                    
+            <operator id="AVMNOperator.16s_all_MAFFT" spec="kernel.AdaptableVarianceMultivariateNormalOperator" allowNonsense="true" beta="0.05" burnin="400" initial="800" weight="0.1">
+                            
+                <transformations id="AVMNSumTransform.16s_all_MAFFT" spec="operator.kernel.Transform$LogConstrainedSumTransform"/>
+                            
+                <transformations id="AVMNLogTransform.16s_all_MAFFT" spec="operator.kernel.Transform$LogTransform">
+                                    
+                    <f idref="rateAC.s:16s_all_MAFFT"/>
+                                    
+                    <f idref="rateAT.s:16s_all_MAFFT"/>
+                                    
+                    <f idref="rateCG.s:16s_all_MAFFT"/>
+                                    
+                    <f idref="rateGT.s:16s_all_MAFFT"/>
+                                
+                </transformations>
+                            
+                <transformations id="AVMNNoTransform.16s_all_MAFFT" spec="operator.kernel.Transform$NoTransform">
+                                    
+                    <f idref="Tree.t:16s_all_MAFFT"/>
+                                
+                </transformations>
+                        
+            </operator>
+                    
+            <operator id="RateACScalerX.s:16s_all_MAFFT" spec="kernel.BactrianScaleOperator" parameter="@rateAC.s:16s_all_MAFFT" scaleFactor="0.5" upper="10.0" weight="0.1"/>
+                
+        </operator>
+            
+        <operator id="RateATScaler.s:16s_all_MAFFT" spec="AdaptableOperatorSampler" weight="0.05">
+                    
+            <parameter idref="rateAT.s:16s_all_MAFFT"/>
+                    
+            <operator idref="AVMNOperator.16s_all_MAFFT"/>
+                    
+            <operator id="RateATScalerX.s:16s_all_MAFFT" spec="kernel.BactrianScaleOperator" parameter="@rateAT.s:16s_all_MAFFT" scaleFactor="0.5" upper="10.0" weight="0.1"/>
+                
+        </operator>
+            
+        <operator id="RateCGScaler.s:16s_all_MAFFT" spec="AdaptableOperatorSampler" weight="0.05">
+                    
+            <parameter idref="rateCG.s:16s_all_MAFFT"/>
+                    
+            <operator idref="AVMNOperator.16s_all_MAFFT"/>
+                    
+            <operator id="RateCGScalerX.s:16s_all_MAFFT" spec="kernel.BactrianScaleOperator" parameter="@rateCG.s:16s_all_MAFFT" scaleFactor="0.5" upper="10.0" weight="0.1"/>
+                
+        </operator>
+            
+        <operator id="RateGTScaler.s:16s_all_MAFFT" spec="AdaptableOperatorSampler" weight="0.05">
+                    
+            <parameter idref="rateGT.s:16s_all_MAFFT"/>
+                    
+            <operator idref="AVMNOperator.16s_all_MAFFT"/>
+                    
+            <operator id="RateGTScalerX.s:16s_all_MAFFT" spec="kernel.BactrianScaleOperator" parameter="@rateGT.s:16s_all_MAFFT" scaleFactor="0.5" upper="10.0" weight="0.1"/>
+                
+        </operator>
+            
+        <logger id="tracelog" spec="Logger" fileName="$(filebase).log" logEvery="1000" model="@posterior" sanitiseHeaders="true" sort="smart">
+                    
+            <log idref="posterior"/>
+                    
+            <log idref="likelihood"/>
+                    
+            <log idref="prior"/>
+                    
+            <log idref="treeLikelihood.16s_all_MAFFT"/>
+                    
+            <log id="TreeHeight.t:16s_all_MAFFT" spec="beast.base.evolution.tree.TreeStatLogger" tree="@Tree.t:16s_all_MAFFT"/>
+                    
+            <log idref="YuleModel.t:16s_all_MAFFT"/>
+                    
+            <log idref="birthRate.t:16s_all_MAFFT"/>
+                    
+            <log idref="rateAC.s:16s_all_MAFFT"/>
+                    
+            <log idref="rateAT.s:16s_all_MAFFT"/>
+                    
+            <log idref="rateCG.s:16s_all_MAFFT"/>
+                    
+            <log idref="rateGT.s:16s_all_MAFFT"/>
+                
+        </logger>
+            
+        <logger id="screenlog" spec="Logger" logEvery="1000">
+                    
+            <log idref="posterior"/>
+                    
+            <log idref="likelihood"/>
+                    
+            <log idref="prior"/>
+                
+        </logger>
+            
+        <logger id="treelog.t:16s_all_MAFFT" spec="Logger" fileName="$(filebase)-$(tree).trees" logEvery="1000" mode="tree">
+                    
+            <log id="TreeWithMetaDataLogger.t:16s_all_MAFFT" spec="beast.base.evolution.TreeWithMetaDataLogger" tree="@Tree.t:16s_all_MAFFT"/>
+                
+        </logger>
+            
+        <operatorschedule id="OperatorSchedule" spec="OperatorSchedule"/>
+        
+    </run>
+
+    
+
+</beast>
